@@ -16,4 +16,7 @@ class ApplicationController < ActionController::Base
     def title
         render html: "Title"
     end
+    def contact
+        render html: "Contact"
+    end
 end
